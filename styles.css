@@ -48,3 +48,26 @@ body {
     color: var(--gray);
     margin: 0 0.5rem 1rem 0.5rem;
 }
+
+@media (max-width: 768px){
+    .qr-container {
+        width: 20rem;
+        height: 31rem;
+        padding: 0.5rem;
+    }
+
+    .qr-container__image{
+        width: 19rem;
+        border-radius: 0.5rem;
+    }
+
+    .qr-container__title{
+        font-size: 1.5rem;
+        margin: 1rem 0.5rem 0 0.5rem;
+    }
+
+    .qr-container__paragraph{
+        font-size: 1rem;
+        margin: 0 1.5rem 1.5rem 1.5rem;
+    }
+}
